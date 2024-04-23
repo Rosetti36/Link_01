@@ -29,6 +29,25 @@ html {
     text-align: center;
 }
 
+
+#mapa_M {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    width: 550px;
+    height: 350px;
+    border-radius: 0;
+   
+    margin-right: 20px;
+
+    margin: 20px;
+    flex-grow: 10px;
+    text-align: center;
+}
+
+
 video {
     position: fixed;
     right: 0;
@@ -172,4 +191,6 @@ a:hover {
     align-items: center;
     text-align: center;
 }
+
+
 
