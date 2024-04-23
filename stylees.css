@@ -1,0 +1,175 @@
+body,
+html {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+#Perfil01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+nav {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+nav h1 {
+    margin: 0;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 10px 10px;
+    text-align: center;
+
+
+}
+
+
+
+#logo {
+    display: flex; /* Permite que el logotipo y el texto se alineen en paralelo */
+    justify-content:center baseline; /* Alinea el logotipo a la derecha */
+    align-items:center;
+}
+
+
+main {
+    padding: 50px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+footer img {
+    height: 50px;
+    margin-right: 10px;
+    background-color: transparent;
+    text-align:center;
+}
+
+footer h2 {
+    margin: 10px;
+    text-align: auto;
+    background-color: transparent;
+    text-align:center;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav li {
+        display: flex;
+    }
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: auto;
+    border-radius: 100px;
+    text-align: none;
+}
+
+
+a:hover {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+
+#link-list {
+    width: 300px;
+    /* Reduce el ancho de la opción a 100 píxeles */
+    height: 50px;
+    text-align: center;
+
+}
+
+
+#Centrar {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
