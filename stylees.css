@@ -109,7 +109,7 @@ main {
 }
 
 footer {
-    position: fixed;
+    position: inline-block;
     bottom: 0;
     left: 0;
     width: 100%;
